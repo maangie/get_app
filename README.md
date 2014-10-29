@@ -16,7 +16,7 @@ config.include Capybara::DSL
 ### 適当なモデルを作って、rspec したらこのザマですよ
 ```shell-session
 % rails g controller mails index send
-% rspec
+% rspec spec/controllers/mails_controller_spec.rb
 FF***
 
 Pending:
