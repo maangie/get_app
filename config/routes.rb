@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'mails/index'
+
+  get 'mails/send'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
